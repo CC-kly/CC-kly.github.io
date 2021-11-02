@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="indcss.css">
+		<script src="js/cuon-utils.js"></script>
+		<script src="js/webgl-debug.js"></script>
+		<script src="js/webgl-utils.js"></script>
+		<script src="js/gl-matrix-min.js"></script>
+		<script src="js/cuon-matrix.js"></script>
+		<style type="text/css">
+			.tou{
+				width: 100%;
+				height: 100px;
+				background-color: aqua;
+			}
+			.t-fan{
+				width: 10%;
+				height: 100%;
+				float: left;
+				
+			}
+			.t-txt{
+				float: left;
+				width: 90%;
+			}
+			.h11{
+				text-align: center;
+			}
+			.pp{
+				height: 500;
+			}
+		</style>
+		<script type="text/javascript" src="GL4.js"></script>
+	</head>
+	<body style="background: #FFF8DC;" onload="main()">
+		<div class="tou">
+			<div class="t-fan"><img src="fanhui.png" height="50"></div>
+			<div class="t-txt"><h1 class="h11">转啊转</h1></div>
+		</div>
+		<div class="pp" style="text-align: center;">			
+				<canvas id="gl" width="400" height="400"></canvas><br>
+				<button onclick="XX()"> X </button>
+				<button onclick="YY()"> Y </button>
+				<button onclick="ZZ()">Z</button><br />
+				<button onclick="f7()"> 大 </button>
+				<button onclick="f8()">小</button><br />
+				<button onclick="f9()"> 大大 </button>
+				<button onclick="f10()">小小</button><br />
+				<button onclick="stop()">止</button>
+				<button onclick="start()">动</button><br>
+				<button onclick="change()">両極反転</button>	
+		</div>
+	</body>
+</html>
